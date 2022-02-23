@@ -325,3 +325,33 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-02-23 09:49:34.819
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:49.906
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:49.911
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:49.913
+!MESSAGE buffering callback sts4.classpath.SRrUrtcF hwDI false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:49.914
+!MESSAGE executing callback sts4.classpath.SRrUrtcF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:50.023
+!MESSAGE executing callback sts4.classpath.SRrUrtcF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:50.956
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:50.971
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:50.973
+!MESSAGE buffering callback sts4.classpath.SRrUrtcF hwDI false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:50.975
+!MESSAGE executing callback sts4.classpath.SRrUrtcF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 09:58:51.004
+!MESSAGE executing callback sts4.classpath.SRrUrtcF SUCCESS [done]
