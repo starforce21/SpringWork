@@ -7,8 +7,7 @@ import com.example.SpringMVC.model.Stock;
 @Repository
 public interface StockRepository extends JpaRepository<Stock,Integer>{
 	
-	List<Stock> findByName(String company);
+	List<Stock> findByCompany(String company);
 	List<Stock> findByTicker(String ticker);
-	Stock findBySingleTicker(String ticker);
-	void deleteByTicker(String ticker);
+	long deleteByTicker(String ticker);
 }

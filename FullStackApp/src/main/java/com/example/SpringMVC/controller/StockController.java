@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +22,7 @@ import com.example.SpringMVC.model.Stock;
 @RestController
 @RequestMapping("/api/")
 public class StockController {
-@Autowired
+	@Autowired
 	private StockRepository stockRepo;
 	
 	// get all holding
@@ -31,26 +32,26 @@ public class StockController {
 		return stockRepo.findAll();
 	}
 	
-	@PostMapping("/allstock")
+	@PostMapping("/addstock")
 	public Stock newStocks(@RequestBody Stock stonk)
 	{
 		return stockRepo.save(stonk);
 	}
 	
-	@GetMapping("/stock/{company}")
+	@GetMapping("/company/{company}")
 	public List<Stock> getStockByName(@PathVariable String company)
-{
+	{
 		
-		List <Stock> stocks=stockRepo.findByName(company);
+		List <Stock> stocks=stockRepo.findByCompany(company);
 		if(stocks.isEmpty())
 		{
 			System.out.println(new Exception("Company with the name "+ company +" not found"));
 		}
 		
-		return stockRepo.findByName(company);
+		return stockRepo.findByCompany(company);
 	}
 	
-	@GetMapping("/stock/{ticker}")
+	@GetMapping("/ticker/{ticker}")
 	public List<Stock> getStockByTicker(@PathVariable String ticker)
 	{
 		
@@ -65,7 +66,7 @@ public class StockController {
 	
 	
 	
-	@PutMapping("/student/{ticker}")
+	@PutMapping("stock/{ticker}")
 	public ResponseEntity<Stock> updateStock(@PathVariable String ticker, @RequestBody Stock stonk)
 	{
 		List <Stock> stocks=stockRepo.findByTicker(ticker);
@@ -73,9 +74,8 @@ public class StockController {
 		{
 			System.out.println(new Exception("Stock with the ticker "+ ticker +" not found"));
 		}
-		Stock s= stockRepo.findBySingleTicker(ticker);
+		Stock s= stocks.get(0);
 	    s.setTicker(stonk.getTicker());
-	    s.setCompany(stonk.getCompany());
 	    s.setQuantity(stonk.getQuantity());
 	    s.setPurchasePrice(stonk.getPurchasePrice());
 	    Stock updatedStock=stockRepo.save(s);
@@ -84,7 +84,8 @@ public class StockController {
 	
 
 	
-	@DeleteMapping("/student/{ticker}")
+	@DeleteMapping("/ticker/{ticker}")
+	@Transactional
 	public String deleteStudent(@PathVariable String ticker)
 	{
 		List <Stock> stocks=stockRepo.findByTicker(ticker);
@@ -95,21 +96,6 @@ public class StockController {
 	    stockRepo.deleteByTicker(ticker);
 	    return "The Stock with ticker: "+ ticker +" is removed from the database.";
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }
