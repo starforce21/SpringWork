@@ -1,6 +1,6 @@
 package com.example.SpringMVC.controller;
-
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,9 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.SpringMVC.repository.StockRepository;
+import com.example.SpringMVC.repository.WatchListRepository;
 import com.example.SpringMVC.model.Stock;
+import com.example.SpringMVC.model.WatchList;
 
 @CrossOrigin(origins="http://localhost:3000")
 @RestController
@@ -24,6 +25,38 @@ import com.example.SpringMVC.model.Stock;
 public class StockController {
 	@Autowired
 	private StockRepository stockRepo;
+	@Autowired
+	private WatchListRepository wlRepo;
+	
+	@GetMapping("/watchlist/{ticker}")
+	public Optional <WatchList> getOneTickers(@PathVariable String ticker)
+	{
+		return wlRepo.findById(ticker);
+	}
+	
+	@GetMapping("/alltickers")
+	public List<WatchList> getAllTickers()
+	{
+		return wlRepo.findAll();
+	}
+	
+	@PostMapping("/addticker")
+	public WatchList newTicker(@RequestBody WatchList ticker)
+	{
+		return wlRepo.save(ticker);
+	}
+	
+	@DeleteMapping("/ticker/{ticker}")
+	@Transactional
+	public String deleteTicker(@PathVariable String ticker) throws Exception
+	{
+		wlRepo.findById(ticker).orElseThrow(() ->  new Exception("Ticker not found"));
+	    wlRepo.deleteById(ticker);
+	    return "The Stock with ticker: "+ ticker +" is removed from the database.";
+	}
+	
+	
+	
 	
 	// get all holding
 	@GetMapping("/allstocks")
@@ -84,7 +117,7 @@ public class StockController {
 	
 
 	
-	@DeleteMapping("/ticker/{ticker}")
+	@DeleteMapping("/stock/{ticker}")
 	@Transactional
 	public String deleteStudent(@PathVariable String ticker)
 	{
