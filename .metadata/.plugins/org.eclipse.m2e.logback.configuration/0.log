@@ -2015,3 +2015,382 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-02-27 16:33:04,437 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-02-27 16:33:04,439 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-02-27 16:33:04,447 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 16:33:04,449 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 16:33:04,450 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 16:33:04,450 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 16:45:12,630 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-27 16:45:31,689 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 16:45:31,691 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 16:45:31,694 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 16:45:31,725 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 16:45:31,731 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 16:45:31,732 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 16:45:31,732 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:03:24,823 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-27 19:07:24,795 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2022-02-27 19:07:24,801 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-02-27 19:08:25,416 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:08:25,416 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:08:25,420 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:08:25,445 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:08:25,452 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:08:25,452 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:08:25,452 [Worker-7: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:11:55,389 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:11:55,389 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:11:55,391 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:11:55,398 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:11:55,401 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:11:55,401 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:11:55,401 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:14:29,711 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:14:29,711 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:14:29,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:14:29,723 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:14:29,725 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:14:29,725 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:14:29,725 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:23:31,490 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:23:31,490 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:23:31,492 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:23:31,499 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:23:31,502 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:23:31,502 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:23:31,502 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:24:34,289 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:24:34,289 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:24:34,290 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:24:34,295 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:24:34,297 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:24:34,297 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:24:34,297 [Worker-11: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:25:01,524 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:25:01,525 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:25:01,526 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:25:01,532 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:25:01,534 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:25:01,534 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:25:01,534 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:34:27,201 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:34:27,202 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:34:27,203 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:34:27,208 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:34:27,210 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:34:27,210 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:34:27,210 [Worker-27: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:51:11,689 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:51:11,689 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:51:11,690 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:51:11,700 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:51:11,703 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:51:11,703 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:51:11,703 [Worker-29: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:52:54,013 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:52:54,014 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:52:54,014 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:52:54,025 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:52:54,027 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:52:54,027 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:52:54,027 [Worker-28: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:55:38,473 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:55:38,473 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:55:38,474 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:55:38,479 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:55:38,480 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:55:38,480 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:55:38,480 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:56:07,797 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:56:07,797 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:56:07,798 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:56:07,802 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:56:07,803 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:56:07,803 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:56:07,803 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:58:14,536 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:58:14,536 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:58:14,537 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:58:14,543 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:58:14,544 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:58:14,544 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:58:14,544 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:58:29,502 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:58:29,503 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:58:29,503 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:58:29,509 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:58:29,510 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:58:29,510 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:58:29,510 [Worker-37: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:59:11,871 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:59:11,871 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:59:11,872 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:59:11,877 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:59:11,878 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:59:11,879 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:59:11,879 [Worker-41: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 19:59:41,498 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:59:41,498 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:59:41,499 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 19:59:41,503 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 19:59:41,504 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 19:59:41,505 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 19:59:41,505 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:00:16,834 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:00:16,834 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:00:16,835 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 20:00:16,840 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 20:00:16,842 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:00:16,842 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:00:16,842 [Worker-43: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:12:49,001 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:12:49,001 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:12:49,002 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 20:12:49,015 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 20:12:49,016 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:12:49,016 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:12:49,016 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:13:27,738 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:13:27,739 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:13:27,739 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 20:13:27,750 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 20:13:27,752 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:13:27,752 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:13:27,752 [Worker-34: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:14:27,159 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:14:27,159 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:14:27,160 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 20:14:27,164 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 20:14:27,166 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:14:27,166 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:14:27,166 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:14:29,329 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:14:29,329 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:14:29,330 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 20:14:29,335 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 20:14:29,336 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 20:14:29,337 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 20:14:29,337 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 20:20:29,013 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-27 21:03:44,028 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 21:03:44,030 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 21:03:44,033 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 21:03:44,078 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 21:03:44,087 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 21:03:44,087 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 21:03:44,088 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 22:14:48,335 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-27 22:20:11,064 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:20:11,065 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:20:11,068 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 22:20:11,102 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 22:20:11,108 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:20:11,109 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:20:11,109 [Worker-4: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 22:56:40,279 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:56:40,279 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:56:40,281 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 22:56:40,292 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 22:56:40,294 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:56:40,295 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:56:40,295 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 22:57:24,947 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:57:24,947 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:57:24,948 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 22:57:24,953 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 22:57:24,963 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:57:24,963 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:57:24,963 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 22:59:02,796 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:59:02,797 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:59:02,798 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 22:59:02,813 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 22:59:02,817 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 22:59:02,817 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 22:59:02,817 [Worker-13: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-27 23:00:39,982 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 23:00:39,982 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 23:00:39,983 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-27 23:00:39,988 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-27 23:00:39,989 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-27 23:00:39,989 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-27 23:00:39,989 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 00:09:07,658 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 00:09:07,658 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 00:09:07,659 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 00:09:07,685 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 00:09:07,686 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 00:09:07,687 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 00:09:07,687 [Worker-21: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 00:16:39,823 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 00:16:39,824 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 00:16:39,826 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 00:16:39,834 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 00:16:39,846 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 00:16:39,847 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 00:16:39,847 [Worker-22: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:12:35,106 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-28 13:23:26,172 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:23:26,174 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:23:26,177 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:23:26,202 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:23:26,205 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:23:26,205 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:23:26,205 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:24:21,232 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:24:21,232 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:24:21,235 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:24:21,239 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:24:21,241 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:24:21,241 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:24:21,241 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:28:24,140 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:28:24,140 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:28:24,142 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:28:24,151 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:28:24,153 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:28:24,153 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:28:24,153 [Worker-14: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:29:08,582 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:29:08,582 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:29:08,584 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:29:08,594 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:29:08,595 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:29:08,596 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:29:08,596 [Worker-16: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:38:41,780 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:38:41,780 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:38:41,782 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:38:41,793 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:38:41,801 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:38:41,802 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:38:41,802 [Worker-20: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 13:40:03,520 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:40:03,520 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:40:03,522 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 13:40:03,525 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 13:40:03,527 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 13:40:03,527 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 13:40:03,527 [Worker-9: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 16:53:57,707 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 16:53:57,710 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 16:53:57,714 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 16:53:57,736 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 16:53:57,740 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 16:53:57,740 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 16:53:57,740 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-02-28 16:54:09,345 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-28 18:57:09,798 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 18:57:09,802 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 18:57:09,806 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-28 18:57:09,836 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-02-28 18:57:09,865 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 18:57:09,865 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-02-28 18:57:09,865 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 09:55:24,053 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-01 09:56:31,487 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:31,488 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:31,495 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 09:56:31,516 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 09:56:31,531 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:31,531 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:31,532 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 09:56:32,860 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:32,860 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:32,861 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 09:56:32,865 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 09:56:32,869 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:32,869 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:32,869 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\SampleDI\src\test\resources
+2022-03-01 09:56:33,738 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:33,738 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:33,739 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 09:56:33,751 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 09:56:33,754 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:33,754 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:33,754 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\firstMVC\src\test\resources
+2022-03-01 09:56:34,113 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:34,114 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:34,114 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 09:56:34,116 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 09:56:34,117 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 09:56:34,118 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 09:56:34,118 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\hwDI\src\test\resources
+2022-03-01 10:09:38,704 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:09:38,704 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:09:38,707 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:09:38,760 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:09:38,762 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:09:38,762 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:09:38,762 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 10:28:36,892 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:28:36,893 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:28:36,894 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:28:36,904 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:28:36,910 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:28:36,910 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:28:36,910 [Worker-18: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 10:33:34,996 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:33:34,996 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:33:34,998 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:33:35,004 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:33:35,005 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:33:35,005 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:33:35,005 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 10:39:37,874 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:39:37,875 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:39:37,876 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:39:37,881 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:39:37,884 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:39:37,884 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:39:37,884 [Worker-25: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 10:43:08,490 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:43:08,490 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:43:08,491 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:43:08,498 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:43:08,499 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:43:08,499 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:43:08,499 [Worker-32: Launching FullStackApp - FullStackAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 10:57:49,388 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:57:49,388 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:57:49,389 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 10:57:49,395 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 10:57:49,396 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 10:57:49,397 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 10:57:49,397 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 13:11:43,247 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 13:11:43,248 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 13:11:43,249 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 13:11:43,257 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 13:11:43,259 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 13:11:43,259 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 13:11:43,259 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 13:50:20,972 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-01 13:52:35,977 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 13:52:35,979 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 13:52:35,983 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-01 13:52:36,009 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-01 13:52:36,012 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-01 13:52:36,012 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-01 13:52:36,013 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Jack\Documents\GitHub\SpringBoot\FullStackApp\src\test\resources
+2022-03-01 16:53:04,574 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-02 11:26:22,816 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-02 13:59:53,172 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-03 14:22:29,810 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-03 15:55:30,969 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
